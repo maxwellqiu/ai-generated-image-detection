@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision>=0.15.0
+
+kagglehub
+numpy
+pillow
+matplotlib
+scikit-learn
+tqdm
+opencv-python
+
+# Optional: for running notebooks locally
+jupyter
