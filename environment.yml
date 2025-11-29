@@ -1,0 +1,29 @@
+name: realvsai
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python version
+  - python=3.10
+
+  # Core scientific stack
+  - numpy
+  - pillow
+  - matplotlib
+  - scikit-learn
+  - tqdm
+
+  # PyTorch + TorchVision (from pytorch channel)
+  - pytorch
+  - torchvision
+
+  # pip packages
+  - pip
+
+  # install via pip
+  - pip:
+      - kagglehub
+      - opencv-python
+      - jupyter
